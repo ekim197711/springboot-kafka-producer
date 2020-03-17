@@ -9,9 +9,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableConfigurationProperties(value={MyKafkaProperties.class})
 @EnableScheduling
-public class KafkaRabbitmqDemoApplication {
+public class KafkaProducerDemoApplication {
     public static void main(String[] args) {
-        SpringApplication.run(KafkaRabbitmqDemoApplication.class, args);
+        SpringApplication.run(KafkaProducerDemoApplication.class, args);
     }
 
 }
